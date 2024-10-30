@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-    USER = os.environ.get("INSTAGRAM_USERNAME", "")
-    OWNER = os.environ.get("OWNER_ID", "")
+    API_ID = int(os.environ.get("API_ID", "91632947331"))
+    API_HASH = os.environ.get("API_HASH", "12ab9061b6260f9b91632947331ea0f6")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7092414344:AAGD324t6butz27-ILa98tBkhzGLpqNMtnw") 
+    USER = os.environ.get("INSTAGRAM_USERNAME", "mr___mahi_")
+    OWNER = os.environ.get("OWNER_ID", "1280494242")
     INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
     S = "0"
     STATUS = set(int(x) for x in (S).split())
