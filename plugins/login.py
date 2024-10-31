@@ -45,12 +45,12 @@ async def login(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/mr_mahijo'),
+						InlineKeyboardButton("🤖Other Bots", url="https://t.me/+055Dfay4AsNjYWE1")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://t.me/mr_mahiji"),
+						#InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
@@ -151,7 +151,7 @@ async def login(bot, message):
             name = profile.full_name
             bio = profile.biography
             profilepic = profile.profile_pic_url
-            igtvcount = profile.igtvcount
+            #igtvcount = profile.igtvcount
             followers = profile.followers
             following = profile.followees
             await m.delete()
