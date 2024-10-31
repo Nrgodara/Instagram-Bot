@@ -69,7 +69,7 @@ async def login(bot, message):
         name = profile.full_name
         bio = profile.biography
         profilepic = profile.profile_pic_url
-        igtvcount = profile.igtvcount
+        #igtvcount = profile.igtvcount
         followers = profile.followers
         following = profile.followees
         await m.delete()
@@ -106,10 +106,7 @@ async def login(bot, message):
         bio = profile.biography
         profilepic = profile.profile_pic_url
         #igtvcount = profile.igtvcount
-	try:
-            igtvcount = profile.igtvcount
-        except KeyError:
-            igtvcount = 0  # or any other fallback value you prefer
+
 
         followers = profile.followers
         following = profile.followees
